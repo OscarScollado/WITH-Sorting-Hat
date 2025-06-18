@@ -1,0 +1,112 @@
+[
+    {
+        "title": "Four boxes are placed before you. Which would you try and open?",
+        "answers": [
+            {
+                "title": "The small tortoiseshell box, embellished with gold, inside which some small creature seems to be squeaking.",
+                "scores": {
+                    "g": 0,
+                    "r": 0,
+                    "h": 100,
+                    "s": 0
+                }
+            },
+            {
+                "title": "The gleaming jet black box with a silver lock and key, marked with a mysterious rune that you know to be the mark of Merlin.",
+                "scores": {
+                    "g": 0,
+                    "r": 0,
+                    "h": 0,
+                    "s": 100
+                }
+            },
+            {
+                "title": "The ornate golden casket, standing on clawed feet, whose inscription warns that both secret knowledge and unbearable temptation lie within.",
+                "scores": {
+                    "g": 0,
+                    "r": 100,
+                    "h": 0,
+                    "s": 0
+                }
+            },
+            {
+                "title": "The small pewter box, unassuming and plain, with a scratched message upon it that reads \u2018I open only for the worthy.'",
+                "scores": {
+                    "g": 100,
+                    "r": 0,
+                    "h": 0,
+                    "s": 0
+                }
+            }
+        ]
+    },
+    {
+        "title": "Dawn or dusk?",
+        "answers": [
+            {
+                "title": "Dawn",
+                "scores": {
+                    "g": 100,
+                    "r": 100,
+                    "h": 0,
+                    "s": 0
+                }
+            },
+            {
+                "title": "Dusk",
+                "scores": {
+                    "g": 0,
+                    "r": 0,
+                    "h": 100,
+                    "s": 100
+                }
+            }
+        ]
+    },
+    {
+        "title": "Forest or river?",
+        "answers": [
+            {
+                "title": "Forest",
+                "scores": {
+                    "g": 100,
+                    "r": 100,
+                    "h": 0,
+                    "s": 0
+                }
+            },
+            {
+                "title": "River",
+                "scores": {
+                    "g": 0,
+                    "r": 0,
+                    "h": 100,
+                    "s": 100
+                }
+            }
+        ]
+    },
+    {
+        "title": "Moon or stars?",
+        "answers": [
+            {
+                "title": "Moon",
+                "scores": {
+                    "g": 0,
+                    "r": 100,
+                    "h": 0,
+                    "s": 100
+                }
+            },
+            {
+                "title": "Stars",
+                "scores": {
+                    "g": 100,
+                    "r": 0,
+                    "h": 100,
+                    "s": 0
+                }
+            }
+        ]
+    }
+]

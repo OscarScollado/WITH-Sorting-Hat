@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
+
+/* @import '@skeletonlabs/skeleton/themes/cerberus'; */
+/* @import '@skeletonlabs/skeleton/themes/crimson';  */
+/* @import '@skeletonlabs/skeleton/themes/mona';     */
+/* @import '@skeletonlabs/skeleton/themes/nosh';     */
+@import '@skeletonlabs/skeleton/themes/terminus';
+/* @import '@skeletonlabs/skeleton/themes/wintry';   */
+
+@plugin '@tailwindcss/forms';
+
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+
+@custom-variant dark (&:where([data-mode="dark"], [data-mode="dark"] *));
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    overflow-y: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+}
+
+/* Seeing all elements transitioning color when switching dark/light mode
+    is not visually pleasing, so I disabled all elements that had
+    the transition property enabled by default.
+
+   Some buttons needed it enabled for other color changes,
+    so they are the exception (via the "transition-allowed" class). */
+button:not(button.transition-allowed) {
+    transition: none;
+}
